@@ -20,4 +20,9 @@ module.exports = {
       filename: 'index.html',
     }),
   ],
+
+  devServer: {
+    port: 8080,
+    static: path.join(distDir),
+  },
 };
